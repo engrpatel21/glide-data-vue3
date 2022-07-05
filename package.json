@@ -1,0 +1,36 @@
+{
+  "name": "grid-vue3",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.5",
+    "@glideapps/glide-data-grid": "^4.1.0",
+    "@glideapps/glide-data-grid-cells": "^4.1.0",
+    "@types/lodash": "^4.14.182",
+    "@types/react": "^18.0.14",
+    "core-js": "^3.23.3",
+    "lodash": "^4.17.21",
+    "marked": "^4.0.17",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-is": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-select": "^5.4.0",
+    "styled-components": "^5.3.5",
+    "veaury": "^2.1.4",
+    "vee-validate": "4.0.0",
+    "vue": "^3.2.25",
+    "webpack": "5.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}
