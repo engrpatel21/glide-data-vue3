@@ -171,7 +171,8 @@ const Title: FC<ConvertGridProps> = (props: ConvertGridProps) => {
         return true;
     }, [])
     // const { drawCell, provideEditor } = useExtraCells();
-    const { drawCell, provideEditor } = useCustomCells([DropDown])
+    // const { drawCell, provideEditor } = useCustomCells([DropDown])
+    const { drawCell, provideEditor } = useCustomCells([])
     return (
         <>
 

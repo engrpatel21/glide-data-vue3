@@ -7,7 +7,7 @@ import VueGrid from './components/vue-grid.vue'
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <vue-grid/>  
+  <vue-grid/>
 </template>
 
 <style>

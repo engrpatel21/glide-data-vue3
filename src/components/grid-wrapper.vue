@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <react-glide-grid-component :columns="columns" :items="localItems" :height="height" />
+        <glideGrid :columns="columns" :items="localItems" :height="height" />
 
     </div>
 </template>
@@ -76,7 +76,7 @@ export default defineComponent({
                 const errorIndex = this.localItems[row].cellError.findIndex(error => error.col === col)
                 if (errorIndex >= 0) {
                     this.localItems[row].cellError.splice(errorIndex, 1)
-                } 
+                }
             }
             console.log('items', this.localItems[row])
         },
@@ -102,7 +102,7 @@ export default defineComponent({
             return parameters
         },
         updateErrors(event) {
-            // console.log('errors', event)      
+            // console.log('errors', event)
         },
         async setLocalList() {
 
